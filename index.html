@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/reset.css" rel="stylesheet" />
+    <link href="./css/styles.css" rel="stylesheet" />
+    <script src="index.js" defer></script>
+    <title>NFT Marketplace</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__logo">
+            <img alt="logo" class="header__logo-img" src="/images/logo.svg" />
+          </div>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">Marketplace</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">Rankings</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">Connect awallet</a>
+              </li>
+            </ul>
+            <div class="header__actions">
+              <button class="btn header__actions-btn">
+                <img
+                  src="/images/User.svg"
+                  alt="User-Icon"
+                  width="20"
+                  height="20"
+                />
+                Sing up
+              </button>
+            </div>
+          </nav>
+          <!--TODO: Refactor this button-->
+          <button class="header__burger">
+            <img src="/images/nav/Burger Menu.svg" />
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__inner">
+            <div class="hero__info">
+              <h1 class="hero__title">Discover digital art & Collect NFTs</h1>
+              <p class="hero__subtitle">
+                NFT marketplace UI created with Anima for Figma. Collect, buy
+                and sell art from more than 20k NFT artists.
+              </p>
+              <button class="btn hero__btn">
+                <img src="/images/rocket.svg" alt="rocket" /> Get Started
+              </button>
+              <ul class="hero__list">
+                <li class="hero__item">
+                  <p class="hero__item-qty">240k+</p>
+                  <p class="hero__item-description">Total Sale</p>
+                </li>
+                <li class="hero__item">
+                  <p class="hero__item-qty">100k+</p>
+                  <p class="hero__item-description">Auctions</p>
+                </li>
+                <li class="hero__item">
+                  <p class="hero__item-qty">240k+</p>
+                  <p class="hero__item-description">Artists</p>
+                </li>
+              </ul>
+            </div>
+            <div class="hero__image">
+              <img
+                class="hero__image-img"
+                src="/images/hero.png"
+                width="510"
+                alt="hero"
+              />
+              <div class="hero__image-info">
+                <h2 class="hero__image-title">Space Walking</h2>
+                <div class="hero__image-author">
+                  <img src="/images/hero_image.svg" />
+                  <p>Animakid</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="trending">
+        <div class="container">
+          <div class="trending__inner">
+            <div class="trending__header">
+              <h1 class="trending__title">Trending Collection</h1>
+              <p class="trending__subtitle">
+                Checkout our weekly updated trending collection.
+              </p>
+            </div>
+            <div class="collections">
+              <div class="collections__block">
+                <img
+                  class="collections__block-img"
+                  src="/images/trending/firstblock-main.png"
+                  alt="main"
+                />
+                <ul class="collections__list">
+                  <li class="collections__list-item">
+                    <img
+                      class="collections__list-img"
+                      src="/images/trending/fristblock1.png"
+                      alt="main"
+                    />
+                  </li>
+                  <li class="collections__list-item">
+                    <img
+                      class="collections__list-img"
+                      src="/images/trending/firstblock2.png"
+                      alt="main"
+                    />
+                  </li>
+                  <li class="collections__list-item">
+                    <img
+                      class="collections__list-img"
+                      src="/images/trending/firstblock3.png"
+                      alt="main"
+                    />
+                  </li>
+                </ul>
+                <div class="collections__author">
+                  <h2 class="collection__author-title">Space Walking</h2>
+                  <div class="collections__author-img">
+                    <img src="/images/hero_image.svg" />
+                    <p>Animakid</p>
+                  </div>
+                </div>
+              </div>
+              <div class="collections__block">
+                <img
+                  class="collections__block-img"
+                  src="/images/trending/secondBlock-main.png"
+                  alt="main"
+                />
+                <ul class="collections__list">
+                  <li class="collections__list-item">
+                    <img
+                      class="collections__list-img"
+                      src="/images/trending/secondblock1.png"
+                      alt="main"
+                    />
+                  </li>
+                  <li class="collections__list-item">
+                    <img
+                      class="collections__list-img"
+                      src="/images/trending/secondblock2.png"
+                      alt="main"
+                    />
+                  </li>
+                  <li class="collections__list-item">
+                    <img
+                      class="collections__list-img"
+                      src="/images/trending/firstblock3.png"
+                      alt="main"
+                    />
+                  </li>
+                </ul>
+                <div class="collections__author">
+                  <h2 class="collection__author-title">Magic Mushrooms</h2>
+                  <div class="collections__author-img">
+                    <img src="/images/trending/secondblockavatar.png" />
+                    <p>Shroomie</p>
+                  </div>
+                </div>
+              </div>
+              <div class="collections__block">
+                <img
+                  class="collections__block-img"
+                  src="/images/trending/third-block-main.png"
+                  alt="main"
+                />
+                <ul class="collections__list">
+                  <li class="collections__list-item">
+                    <img
+                      class="collections__list-img"
+                      src="/images/trending/thirdblock1.png"
+                      alt="main"
+                    />
+                  </li>
+                  <li class="collections__list-item">
+                    <img
+                      class="collections__list-img"
+                      src="/images/trending/thrirdblock2.png"
+                      alt="main"
+                    />
+                  </li>
+                  <li class="collections__list-item">
+                    <img
+                      class="collections__list-img"
+                      src="/images/trending/firstblock3.png"
+                      alt="main"
+                    />
+                  </li>
+                </ul>
+                <div class="collections__author">
+                  <h2 class="collection__author-title">Disco Machines</h2>
+                  <div class="collections__author-img">
+                    <img src="/images/trending/thirdblockavatar.png" />
+                    <p>BeKind2Robots</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="creators">
+        <div class="container">
+          <div class="creators__inner">
+            <div class="creators__header">
+              <div class="creators__header-info">
+                <h3 class="creators__header-title">Top creators</h3>
+                <p class="creators__header-subtitle">
+                  Checkout Top Rated Creators on the NFT Marketplace
+                </p>
+              </div>
+              <div class="creators__header-actions">
+                <!--TODO: fix this button-->
+                <button class="btn creators__header-btn">
+                  <img src="/images/rocket.svg" />
+                  <a class="creators__header-link">View Rankings</a>
+                </button>
+              </div>
+            </div>
+            <div class="creators__cards">
+              <ul class="creators__cards-list">
+                <li class="creator__card-item">
+                  <img
+                    class="creator__card-img"
+                    src="/images/creators/creator1.png"
+                    alt="creator"
+                  />
+                  <div class="creator__card-info">
+                    <p class="creator__card-title">Keepitreal</p>
+                    <p class="creator__card-amount">
+                      Total Sales:
+                      <span class="creator__card-balance">34.53 ETH</span>
+                    </p>
+                  </div>
+                </li>
+                <li class="creator__card-item">
+                  <img
+                    class="creator__card-img"
+                    src="/images/creators/creator2.png"
+                    alt="creator"
+                  />
+                  <div class="creator__card-info">
+                    <p class="creator__card-title">DigiLab</p>
+                    <p class="creator__card-amount">
+                      Total Sales:
+                      <span class="creator__card-balance">34.53 ETH</span>
+                    </p>
+                  </div>
+                </li>
+                <li class="creator__card-item">
+                  <img
+                    class="creator__card-img"
+                    src="/images/creators/creator3.png"
+                    alt="creator"
+                  />
+                  <div class="creator__card-info">
+                    <p class="creator__card-title">GravityOne</p>
+                    <p class="creator__card-amount">
+                      Total Sales:
+                      <span class="creator__card-balance">20.53 ETH</span>
+                    </p>
+                  </div>
+                </li>
+                <li class="creator__card-item">
+                  <img
+                    class="creator__card-img"
+                    src="/images/creators/creator4.png"
+                    alt="creator"
+                  />
+                  <div class="creator__card-info">
+                    <p class="creator__card-title">Juanie</p>
+                    <p class="creator__card-amount">
+                      Total Sales:
+                      <span class="creator__card-balance">14.03 ETH</span>
+                    </p>
+                  </div>
+                </li>
+                <li class="creator__card-item">
+                  <img
+                    class="creator__card-img"
+                    src="/images/creators/creator5.png"
+                    alt="creator"
+                  />
+                  <div class="creator__card-info">
+                    <p class="creator__card-title">BlueWhale</p>
+                    <p class="creator__card-amount">
+                      Total Sales:
+                      <span class="creator__card-balance">12.03 ETH</span>
+                    </p>
+                  </div>
+                </li>
+                <li class="creator__card-item">
+                  <img
+                    class="creator__card-img"
+                    src="/images/creators/creator6.png"
+                    alt="creator"
+                  />
+                  <div class="creator__card-info">
+                    <p class="creator__card-title">Mr Fox</p>
+                    <p class="creator__card-amount">
+                      Total Sales:
+                      <span class="creator__card-balance">49.03 ETH</span>
+                    </p>
+                  </div>
+                </li>
+                <li class="creator__card-item">
+                  <img
+                    class="creator__card-img"
+                    src="/images/creators/creator7.png"
+                    alt="creator"
+                  />
+                  <div class="creator__card-info">
+                    <p class="creator__card-title">Shroomie</p>
+                    <p class="creator__card-amount">
+                      Total Sales:
+                      <span class="creator__card-balance">14.03 ETH</span>
+                    </p>
+                  </div>
+                </li>
+                <li class="creator__card-item">
+                  <img
+                    class="creator__card-img"
+                    src="/images/creators/creator8.png"
+                    alt="creator"
+                  />
+                  <div class="creator__card-info">
+                    <p class="creator__card-title">Robotica</p>
+                    <p class="creator__card-amount">
+                      Total Sales:
+                      <span class="creator__card-balance">24.03 ETH</span>
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="categories">
+        <div class="container">
+          <div class="categories__inner">
+            <h2 class="categories__title">Browse Categories</h2>
+          </div>
+          <div class="categories__cards">
+            <ul class="categories__cards-list">
+              <li class="categories__cards-item">
+                <img
+                  class="categories__cards-img"
+                  src="/images/categories/art.png"
+                />
+                <p class="categories__cards-text">Art</p>
+              </li>
+              <li class="categories__cards-item">
+                <img
+                  class="categories__cards-img"
+                  src="/images/categories/collection.png"
+                />
+                <p class="categories__cards-text">Collectibles</p>
+              </li>
+              <li class="categories__cards-item">
+                <img
+                  class="categories__cards-img"
+                  src="/images/categories/music.png"
+                />
+                <p class="categories__cards-text">Music</p>
+              </li>
+              <li class="categories__cards-item">
+                <img
+                  class="categories__cards-img"
+                  src="/images/categories/photography.png"
+                />
+                <p class="categories__cards-text">Photography</p>
+              </li>
+              <li class="categories__cards-item">
+                <img
+                  class="categories__cards-img"
+                  src="/images/categories/video.png"
+                />
+                <p class="categories__cards-text">Video</p>
+              </li>
+              <li class="categories__cards-item">
+                <img
+                  class="categories__cards-img"
+                  src="/images/categories/utility.png"
+                />
+                <p class="categories__cards-text">Utility</p>
+              </li>
+              <li class="categories__cards-item">
+                <img
+                  class="categories__cards-img"
+                  src="/images/categories/sport.png"
+                />
+                <p class="categories__cards-text">Sport</p>
+              </li>
+              <li class="categories__cards-item">
+                <img
+                  class="categories__cards-img"
+                  src="/images/categories/virt-words.png"
+                />
+                <p class="categories__cards-text">Virtual Worlds</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
