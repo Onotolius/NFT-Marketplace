@@ -311,6 +311,59 @@ header {
   border-radius: 0 0 20px 20px;
   margin-top: auto;
 }
+/*------How-it-works*/
+.how-it-works {
+  margin: 80px 0;
+  text-transform: capitalize;
+  font-family: var(--second-family);
+  color: var(--text);
+}
+.how-it-works__title {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.2;
+}
+.how-it-works__subtitle {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+.how-it-works__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.how-it-works__card-img {
+  display: block;
+  flex-shrink: 0;
+  width: 250px;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+}
+.how-it-works__card {
+  border-radius: 20px;
+  padding: 10px 30px 30px;
+  background-color: var(--background--secondary);
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.how-it-works__card-info {
+  margin-top: 10px;
+}
+.how-it-works__card-title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.4;
+}
+.how-it-works__card-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+}
 
 @media (max-width: 870px) {
   .container {
@@ -412,6 +465,17 @@ header {
     line-height: 1.4;
     margin-bottom: 40px;
   }
+  /*-------how-it-works-------*/
+  .how-it-works__card-title {
+    font-size: 16px;
+  }
+  .how-it-works__card-img {
+    width: 160px;
+  }
+  .how-it-works__card-subtitle {
+    font-weight: 400;
+    font-size: 12px;
+  }
 }
 @media (max-width: 600px) {
   .container {
@@ -486,5 +550,28 @@ header {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.4;
+  }
+  /*----------how-it-works------*/
+  .how-it-works__list {
+    grid-template-columns: 1fr;
+  }
+  .how-it-works__card {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+  .how-it-works__card-img {
+    width: 100px;
+  }
+  .how-it-works__card-title {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+  .how-it-works__card-subtitle {
+    font-size: 12px;
   }
 }
