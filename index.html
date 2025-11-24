@@ -24,13 +24,13 @@
           <nav class="header__nav">
             <ul class="header__nav-list">
               <li class="header__nav-item">
-                <a class="header__nav-link" href="#">Marketplace</a>
+                <a class="header__nav-link" href="#categories">Categories</a>
               </li>
               <li class="header__nav-item">
-                <a class="header__nav-link" href="#">Rankings</a>
+                <a class="header__nav-link" href="#creators">Creators</a>
               </li>
               <li class="header__nav-item">
-                <a class="header__nav-link" href="#">Connect awallet</a>
+                <a class="header__nav-link" href="#digest">Digest</a>
               </li>
             </ul>
             <div class="header__actions">
@@ -52,6 +52,33 @@
         </div>
       </div>
     </header>
+    <aside class="sidebar-nav">
+      <nav class="sidebar-nav__inner">
+        <button class="close__btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            stroke-width="2"
+            stroke="currentColor"
+            class="size-8"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+            />
+          </svg>
+        </button>
+        <a class="sidebar-nav__link" href="#categories">Categories</a>
+        <a class="sidebar-nav__link" href="#creators">Creators</a>
+        <a class="sidebar-nav__link" href="#digest">Digest</a>
+        <button class="btn">
+          <img src="/images/User.svg" alt="User-Icon" width="20" height="20" />
+          Sing up
+        </button>
+      </nav>
+    </aside>
+    <div class="sidebar-overlay"></div>
     <main>
       <section class="hero">
         <div class="container">
@@ -223,7 +250,7 @@
           </div>
         </div>
       </section>
-      <section class="creators">
+      <section class="creators" id="creators">
         <div class="container">
           <div class="creators__inner">
             <div class="creators__header">
@@ -360,7 +387,7 @@
           </div>
         </div>
       </section>
-      <section class="categories">
+      <section class="categories" id="categories">
         <div class="container">
           <div class="categories__inner">
             <h2 class="categories__title">Browse Categories</h2>
@@ -478,6 +505,113 @@
           </div>
         </div>
       </section>
+      <section class="digest" id="digest">
+        <div class="container">
+          <div class="digest__inner">
+            <img
+              class="digest__img"
+              src="/images/howItWorks/digest.png"
+              alt="digest"
+            />
+            <div class="digest__info">
+              <h3 class="digest__info-title">Join our weekly digest</h3>
+              <p class="digest__info-subtitle">
+                Get exclusive promotions & updates straight to your inbox.
+              </p>
+              <form class="digest__form" action="#">
+                <input
+                  class="digest__form-input"
+                  type="text"
+                  placeholder="Enter your email ..."
+                />
+                <button class="btn">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__top">
+              <div class="footer__top-right">
+                <div class="footer__logo">
+                  <img
+                    alt="logo"
+                    class="header__logo-img"
+                    src="/images/logo.svg"
+                  />
+                </div>
+                <p class="footer__subtitle">
+                  NFT marketplace UI created with Anima for Figma.
+                </p>
+                <div class="footer__socials">
+                  <p class="footer__socials-title">Join our community</p>
+                  <ul class="footer__socials-list">
+                    <li class="footer_socials-item">
+                      <a class="footer__socials-link" href="#">
+                        <img
+                          class="footer__socials-img"
+                          src="/images/socials/DiscordLogo.png"
+                          alt="discord"
+                        />
+                      </a>
+                    </li>
+                    <li class="footer_socials-item">
+                      <a class="footer__socials-link" href="#">
+                        <img
+                          class="footer__socials-img"
+                          src="/images/socials/YoutubeLogo.png"
+                          alt="discord"
+                        />
+                      </a>
+                    </li>
+                    <li class="footer_socials-item">
+                      <a class="footer__socials-link" href="#">
+                        <img
+                          class="footer__socials-img"
+                          src="/images/socials/TwitterLogo.png"
+                          alt="discord"
+                        />
+                      </a>
+                    </li>
+                    <li class="footer_socials-item">
+                      <a class="footer__socials-link" href="#">
+                        <img
+                          class="footer__socials-img"
+                          src="/images/socials/InstagramLogo.png"
+                          alt="discord"
+                        />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer__top-nav">
+                <h4 class="footer__nav-title">Explore</h4>
+                <ul class="footer__nav-list">
+                  <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#categories"
+                      >Categories</a
+                    >
+                  </li>
+                  <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#creators">Creators</a>
+                  </li>
+                  <li class="footer__nav-item">
+                    <a class="footer__nav-link">Connect Wallet</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__bottom">
+              <p class="footer__bottom-text">
+                Ⓒ NFT Market. Use this template freely.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
