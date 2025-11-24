@@ -39,6 +39,11 @@ body {
 .sidebar-nav {
   display: none;
 }
+.sidebar__nav-link:hover {
+  cursor: pointer;
+  color: var(--call-to-action);
+}
+
 header {
   padding: 34px 0;
 }

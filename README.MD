@@ -37,6 +37,6 @@ The main goal of the project is to practice pixel-perfect layout, adaptive desig
 - CSS3 (Flexbox, Grid, media queries)
 - Vanilla JavaScript (for mobile menu)
 - BEM methodology
-![DESKTOP](./images/screenshots/screen3.png)
-![MOBILE](./images/screenshots/screen-1.png)
-![MOBILE](./images/screenshots/screen-2.png)
+![DESKTOP](./images/screenshots/desktop.png)
+![MOBILE](./images/screenshots/mobile-1.png)
+![MOBILE](./images/screenshots/mobile-2.png)
