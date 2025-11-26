@@ -2,7 +2,8 @@
 
 Responsive one-page NFT marketplace landing built with semantic HTML, modern CSS and a small amount of vanilla JavaScript.  
 The main goal of the project is to practice pixel-perfect layout, adaptive design and clean BEM structure for a real portfolio piece.
-
+## Live Preview 
+https://onotolius.github.io/NFT-Marketplace/
 ## Features
 
 - 📱 **Fully responsive layout**
